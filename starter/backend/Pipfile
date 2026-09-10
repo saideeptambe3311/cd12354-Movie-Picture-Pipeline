@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 flask = "*"
-uwsgi = ">=2.0.24"
+uwsgi = {version = "==2.0.25", markers = "sys_platform == 'linux'"}
 flask-cors = "*"
 pytest = "*"
 
