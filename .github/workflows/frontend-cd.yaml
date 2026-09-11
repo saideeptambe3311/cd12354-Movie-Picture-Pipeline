@@ -8,7 +8,8 @@ on:
       - 'starter/frontend/**'
 
 env:
-  REACT_APP_MOVIE_API_URL: http://localhost:5000
+  env:
+  REACT_APP_MOVIE_API_URL: http://a511b2d250014446fa2e740fb8ea16b2-407929725.us-east-1.elb.amazonaws.com
 
 jobs:
   lint:
