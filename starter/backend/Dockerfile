@@ -26,8 +26,7 @@ RUN mkdir -p /var/www/app && \
 COPY Pipfile* /app/
 
 # Install Python dependencies
-RUN cd /app && pipenv install --system --deploy
-
+RUN cd /app && CFLAGS="-Wno-error=incompatible-pointer-types" pipenv install --system --deploy
 # Copy application source code
 COPY . /app
 

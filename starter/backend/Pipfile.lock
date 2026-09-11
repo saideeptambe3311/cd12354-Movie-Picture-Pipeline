@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5d4b9be3c5ff529324113ac58d9ed6ea2055b91713f2b4b1b1b85f39138a1d20"
+            "sha256": "2fcc100d94920a739c1d6a384cc986abd0886026489044d2ef55084a1ee4bb25"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -31,14 +31,6 @@
             ],
             "markers": "python_version >= '3.10'",
             "version": "==8.5.0"
-        },
-        "colorama": {
-            "hashes": [
-                "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44",
-                "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"
-            ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6'",
-            "version": "==0.4.6"
         },
         "exceptiongroup": {
             "hashes": [
@@ -281,11 +273,10 @@
         },
         "uwsgi": {
             "hashes": [
-                "sha256:a0463d00a31f382a560b631adfbcf0a342c748ce04b3408e5bae1b401653d217"
+                "sha256:e8f8b350ccc106ff93a65247b9136f529c14bf96b936ac5b264c6ff9d0c76257"
             ],
             "index": "pypi",
-            "markers": "sys_platform == 'linux'",
-            "version": "==2.0.25"
+            "version": "==2.0.31"
         },
         "werkzeug": {
             "hashes": [
